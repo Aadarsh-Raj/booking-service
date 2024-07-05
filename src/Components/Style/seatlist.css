@@ -1,0 +1,42 @@
+/* src/components/SeatsList.css */
+.seats-list {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seats-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.seats-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seats-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.seats-list li:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-2px);
+}
+
+.seats-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.seats-list a:hover {
+    text-decoration: underline;
+}
